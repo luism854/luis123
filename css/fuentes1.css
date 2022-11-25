@@ -1,0 +1,20 @@
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+.disney-font{
+    font-family: 'Walt-Disney-Script-v41';
+    font-weight: 600;
+    font-size: 600%;
+}
+@font-face {
+    font-family: 'Walt-Disney-Script-v41';
+    src:url('Walt-Disney-Script-v41.ttf.woff') format('woff'),
+        url('Walt-Disney-Script-v41.ttf.svg#Walt-Disney-Script-v41') format('svg'),
+        url('Walt-Disney-Script-v41.ttf.eot'),
+        url('Walt-Disney-Script-v41.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
