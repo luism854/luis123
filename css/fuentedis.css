@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.49f42fb92695d4cad17d74117b689a5e?rik=dgcv5fNWOauWeQ&pid=ImgRaw&r=0);
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+}
+.disney-font{
+    font-family: 'WaltographRegular';
+    font-weight: 600;
+    font-size: 700%;
+    color: white;
+}
