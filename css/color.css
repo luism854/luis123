@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://wallpaperbat.com/img/501749-black-simple-desktop-wallpaper-top-free-black-simple-desktop-background.jpg);
+    background-size: cover;
+}
+.c1{
+    color: aliceblue;
+    line-height: 3in;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.c2{
+    color: aliceblue;
+    line-height: 3in;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.c3{
+    color: aliceblue;
+    line-height: 3in;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+.tc{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.c1:hover{
+    background-color: blue;
+}
+.c2:hover{
+    background-color: #d10202;
+}
+.c3:hover{
+    background-color: rgb(255, 196, 67);
+}
