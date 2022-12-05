@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/58/2d/96/582d96a1df2d94bb439af1594639ccfe.jpg);
+    background-size: cover;
+}
+.ct{
+    color: aliceblue;
+}
+.ct2{
+    color: aliceblue;
+}
+.ct2:hover{
+    color: dodgerblue;
+}
