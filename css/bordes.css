@@ -1,9 +1,56 @@
+.boxs{
+    display: flex;
+}
 .box-1{
     width: 300px;
     height: 300px;
-    background-color: aqua;
-    border: 5px solid gray;
-    margin: 50px;
+    background-color: blueviolet;
+    border: 9px solid blue;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 35px;
+
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    border: 9px dotted blue;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 35px;
+}
+.box-3{
+    width: 300px;
+    height: 300px;
+    background-color: dodgerblue;
+    border: 9px dashed blue;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 35px;
+}
+.box-4{
+    width: 300px;
+    height: 300px;
+    background-color: lightgreen;
+    border: 9px double blue;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 35px;
+}
+.box-5{
+    width: 300px;
+    height: 300px;
+    background-color: snow;
+    border: 9px groove blue;
+    margin: 20px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 35px;
 }
 .parr-style, .parr1-style{
     font-size: 30px;
@@ -11,14 +58,19 @@
     text-align: justify;
     border: 3px solid gray;
 }
+.parr-style{
+    padding: 50px;
+}
 .parr1-style{
     padding: 0 150px;
     border-radius: 30px;
 }
-.box-2{
+.box{
     width: 500px;
     height: 500px;
     border-radius: 500px;
-    background-color: brown;
+    background-color: mediumspringgreen;
     margin-left: 200px;
+    text-align: center;
+    line-height: 500px;
 }
