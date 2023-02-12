@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(0, 0, 155);
+}
+.img{
+    border-radius: 10px;
+    background-color: rgb(75, 75, 255);
+    width: 450px;
+    height: 350px;
+}
+.img:hover{
+    border-radius: 10px;
+    background-color: blue;
+}
+.t2:hover{
+    color: blue;
+}
+.box1{
+    border-radius: 10px;
+    background-color: rgb(45, 45, 255);
+    border: 1px solid black;
+
+}
+.box{
+    margin: 40px;
+    display: flex;
+}
+.t1{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 155);
+}
+.t2{
+    font-size: 26px;
+    display: flex;
+    background-color: rgb(45, 45, 255);
+}
+.t3{
+    text-align: right;
+    background-color: rgb(45, 45, 255);
+
+}
+.t4{
+    font-size: 20px;
+    background-color: light blue;
+}
