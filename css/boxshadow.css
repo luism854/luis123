@@ -1,0 +1,47 @@
+.box1{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    box-shadow: 40px 20px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    box-shadow: 40px 20px 5px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 15px 5px 1px blueviolet;
+    border-radius: 10px;
+}
+.box4{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 20px 30px 10px rgb(208, 159, 255)inset;
+    border-radius: 10px;
+}
+.box5{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.box5:hover{
+    box-shadow: 15px 15px 15px rgb(208, 159, 255), -15px 15px 15px rgb(208, 159, 255), 15px -15px 15px rgb(208, 159, 255), -15px -15px 15px rgb(208, 159, 255);
+}
+.box{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.t{
+    text-align: center;
+    background-color: aqua;
+    text-size-adjust: 500px;
+}
