@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+}
+.bor{
+    border-top: 1px solid black;
+}
+tr{
+    text-align: center;
+}
+.or{
+    border-right: 1px dashed rgb(2, 3, 3);
+}
