@@ -1,0 +1,58 @@
+table{
+    border-radius: 50px;
+    border-collapse: collapse;
+}
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    border: 2px solid rgb(212, 212, 212);
+}
+.cuadro{
+    color: white;
+    text-align: center;
+    width: 80px;
+    background-color: rgb(1, 166, 166);
+}
+.cuadroo{
+    color: white;
+    text-align: center;
+    width: 130px;
+    background-color: rgb(1, 166, 166);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cuadro1{
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.co{
+    color: rgb(0, 252, 0);
+}
+.bor{
+    color: white;
+    border: none;
+}
+.a{
+    background-color: rgb(5, 192, 5);
+}
+.b{
+    background-color: rgb(2, 177, 212);
+}
+.c{
+    background-color: orange;
+}
+.d{
+    background-color: rgb(112, 12, 206);
+}
+.radius1{
+    border-top-left-radius: 15px;
+}
+.radius2{
+    border-top-right-radius: 15px;
+}
+.radius3{
+    border-bottom-left-radius: 15px;
+}
