@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 1px 1px 15px;
+    border-radius: 10px;
+}
+.a1{
+    padding: 3px;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+legend{
+    background-color: yellowgreen;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+textarea{
+    margin: 5px;
+}
+.b{
+    width: 195px;
+    height: 12px;
+}
+select{
+    margin-left: 5px;
+}
