@@ -3,11 +3,38 @@ body{
     background-size: cover;
 }
 .ct{
-    color: aliceblue;
+    color: crimson;
 }
 .ct2{
-    color: aliceblue;
+    color: black;
 }
 .ct2:hover{
     color: dodgerblue;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cuadro{
+    background-size: cover;
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    transition: opacity 1s;
+}
+.cuadro1{
+    background-color: rgba(192, 192, 192, 0.603);
+    width: 210px;
+    height: 65px;
+    margin-top: 73px;
+    text-align: left;
+    padding-top: 5px;
+}
+.cuadro:hover{
+    background-color: aqua;
+}
+.cuadro:hover{
+    opacity: 0.6;
 }

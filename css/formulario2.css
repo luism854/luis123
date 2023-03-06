@@ -1,0 +1,109 @@
+h1{
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-image: url(https://img1.wallspic.com/crops/0/2/7/7/6/167720/167720-onda_retro-edificio-luz-morado-afterglow-1080x1920.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    box-shadow: 1px 1px 25px rgb(231, 139, 231);
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    border: 2px solid rgb(231, 139, 231);
+    width: 350px;
+    height: 61px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    border: 2px solid rgb(231, 139, 231);
+    width: 350px;
+    height: 61px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    border: 2px solid rgb(231, 139, 231);
+    width: 350px;
+    height: 61px;
+}
+.boxu{
+    margin: 3px;
+    border: 2px solid rgb(231, 139, 231);
+    width: 350px;
+    height: 102px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    border: 2px solid rgb(231, 139, 231);
+    width: 350px;
+    height: 90px;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+}
+.a1{
+    padding-left: 6px;
+    padding-top: 8px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+    background-color: blueviolet;
+    width: 344px;
+    margin-bottom: 2px;
+}
+.a2{
+    padding: 10px;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 15px;
+}
+.a3{
+    background-color: rgb(160, 35, 162);
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 5px 5px 10px rgb(169, 44, 172);
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 22px;
+}
+input{
+    height: 19px;
+}
+button{
+    width: 90px;
+    height: 30px;
+    margin: 6px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 1s;
+    font-size: 13px;
+}
+button:hover{
+    background-color: blueviolet;
+}
