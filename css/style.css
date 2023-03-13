@@ -2,11 +2,10 @@ body{
     background-image: url(https://i.pinimg.com/originals/58/2d/96/582d96a1df2d94bb439af1594639ccfe.jpg);
     background-size: cover;
 }
-.ct{
-    color: crimson;
-}
 .ct2{
     color: black;
+    text-decoration: none;
+    font-size: 18px;
 }
 .ct2:hover{
     color: dodgerblue;
@@ -17,24 +16,24 @@ body{
     justify-content: center;
 }
 .cuadro{
+    color: rgb(255, 0, 0);
     background-size: cover;
     margin: 10px;
     width: 250px;
     height: 200px;
     text-align: center;
-    transition: opacity 1s;
+    transition: transform 0.5s ease;
+}
+.cuadro:hover{
+    transform: scale(1.1);
+    color: transparent;
 }
 .cuadro1{
+    list-style: none;
     background-color: rgba(192, 192, 192, 0.603);
     width: 210px;
     height: 65px;
     margin-top: 73px;
     text-align: left;
     padding-top: 5px;
-}
-.cuadro:hover{
-    background-color: aqua;
-}
-.cuadro:hover{
-    opacity: 0.6;
 }

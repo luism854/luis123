@@ -3,23 +3,64 @@
     padding: 0;
 }
 nav{
-    width: 300px;
-    height: 1000px;
-    background-color: yellowgreen;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+}
+h1{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    margin-left: 270px;
 }
 ul{
+    overflow-y: scroll;
+    overflow-x: hidden;
     text-align: left;
+    height: 100%;
+    box-shadow: 0px 0px 10px;
 }
 li{
-    display: flex;
-    padding: 20px 20px;
-    font-size: 1.3em;
+    margin: 2px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: block;
+    padding: 11px 20px;
+    font-size: 13px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .style-home{
-    color: white;
-    font-size: .9em;
-    margin-right: 8px;
+    color: gray;
+    font-size: 13px;
+    margin-right: 11px;
     margin-top: 5px;
+}
+li:hover{
+    display: block;
+    background-color: rgb(214, 214, 214);
+    width: 190px;
+    height: 19px;
+}
+div{
+    display: flex;
+    justify-content: left;
+}
+.menu{
+    display: block;
+    color: gray;
+    font-size: .9em;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px 25px;
+}
+.scrol{
+    margin: 0px 30px 30px 270px;
+}
+.linebo{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 90%;
+    margin: 10px auto 10px auto;
 }
