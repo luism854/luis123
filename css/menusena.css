@@ -1,10 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .box{
     display: flex;
     justify-content: center;
     border: none;
-    box-shadow: 0px 1px 3px;
     width: 100%;
-
+    margin: 20px 0px 0px 0px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgb(149, 149, 149) 0px 3px 7px;
 }
 ul{
     display: flex;
@@ -13,13 +18,47 @@ ul{
 .cuadro{
     display: flex;
     border-right: 1px solid rgb(47, 255, 47);
-    margin-right: 40px;
+    padding-left: 10px;
     align-items: center;
-    height: 35px;
+    height: 38px;
     text-align: center;
 }
 .titles{
     text-decoration: none;
-    padding-right: 35px;
+    padding-right: 10px;
+    position: relative;
 }
-
+.cuadro:hover{
+    background-color: rgb(223, 223, 223);
+}
+.boxz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 840px;
+}
+.cuadro2{
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+    width: 230px;
+    margin-top: 3px;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 0px 2px 10px;
+}
+.neg{
+    margin-top: 40px;
+}
+.desp{
+    visibility: hidden;
+    width: auto;
+    text-align: center;
+    height: 38px;
+    position: absolute;
+    z-index: 1;
+}
+.desp:hover .cuadro{
+    visibility: visible;
+}
