@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{ 
+    display: flex;
+    justify-content: right;
+    color: black;
+    height: 70px;
+    box-shadow: black 0px 5px 7px -5px;
+    margin: 0px 100px;
+    background-color: white;
+}
+.menu1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin: 20px;
+}
+.item:hover{
+    color: rgb(0, 0, 173);
+}
+img{
+    height: 65px;
+}
+    .wave span {
+    position: relative;
+    display: flex;
+    transform: translateY(0);
+    animation: wave 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes wave {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(-30px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    .wave span:nth-child(1) {
+      animation-delay: 0s;
+    }
+    
+    .wave span:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+    
+    .wave span:nth-child(3) {
+      animation-delay: 0.2s;
+    }
+    
+    .wave span:nth-child(4) {
+      animation-delay: 0.3s;
+    }
+@media only screen and (max-width: 750px) {
+    body{
+        background-color: white;
+    }
+    .menu{
+        display: block;
+        justify-content: center;
+        box-shadow: none;
+    }
+    .menu1{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item{
+        box-shadow: 0px 3px 8px 0px;
+        height: 40px;
+        cursor: pointer;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        height: 80px;
+    }
+}
