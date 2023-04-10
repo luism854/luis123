@@ -24,67 +24,47 @@
     margin: 20px;
 }
 .item:hover{
-    color: rgb(0, 0, 173);
+    color: yellow;
+    cursor: pointer;
+}
+.icon{
+  display: flex;
+  color: aqua;
 }
 img{
-    height: 65px;
+  height: 65px;
 }
-    .wave span {
-    position: relative;
-    display: flex;
-    transform: translateY(0);
-    animation: wave 1.5s ease-in-out infinite;
-    }
-    
-    @keyframes wave {
-      0% {
-        transform: translateX(0);
-      }
-      50% {
-        transform: translateX(-30px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-    
-    .wave span:nth-child(1) {
-      animation-delay: 0s;
-    }
-    
-    .wave span:nth-child(2) {
-      animation-delay: 0.1s;
-    }
-    
-    .wave span:nth-child(3) {
-      animation-delay: 0.2s;
-    }
-    
-    .wave span:nth-child(4) {
-      animation-delay: 0.3s;
-    }
-@media only screen and (max-width: 750px) {
-    body{
-        background-color: white;
-    }
+@media only screen and (max-width: 800px) {
     .menu{
-        display: block;
-        justify-content: center;
-        box-shadow: none;
+      margin: 0px;
+      padding: 0px;
+      display: block;
+      box-shadow: none;
     }
     .menu1{
-        display: block;
-        flex-direction: column;
-        justify-content: center;
+      display: block;
     }
     .item{
-        box-shadow: 0px 3px 8px 0px;
-        height: 40px;
-        cursor: pointer;
+      box-shadow: 0px 3px 8px 0px;
+      height: 40px;
+      cursor: pointer;
+      background-color: grey;
     }
     .img{
-        display: flex;
-        justify-content: center;
         height: 80px;
+        background-color: black;
+    }
+    .icon{
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      background-color: black;
+      height: 60px;
+    }
+    .menu-visible{
+      display: block;
+    }
+    .menu-hidden{
+      display: none;
     }
 }
