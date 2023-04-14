@@ -20,6 +20,7 @@
     align-items: center;
     font-size: 1.3em;
     margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .item:hover{
     color: aqua;
@@ -46,15 +47,19 @@
     .item{
       padding: 0px;
       margin: 0px 0px 1px 0px;
-      height: 55px;
+      height: 65px;
       width: 100%;
-      cursor: pointer;
-      background-color: rgb(196, 196, 196);
+      background-color: rgb(207, 204, 204);
       color: rgb(0, 0, 0);
       border: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .it2{
+      margin-top: 11px;
     }
     .item:hover{
       background-color: rgb(64, 64, 64);
+      color: white;
     }
     .img{
       background-color: rgb(6, 6, 18);
@@ -63,14 +68,12 @@
       float: right;
     }
     .icon{
+      font-size: 25px;
       display: flex;
       align-items: center;
       padding-left: 20px;
       background-color:rgb(6, 6, 18);;
       height: 60px;
-    }
-    .icon2{
-      cursor: pointer;
     }
     .menu-visible{
       display: block;
