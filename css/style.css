@@ -96,21 +96,18 @@ body{
     color: white;
   }
   .text2{
-  font-size: 19px;
-  list-style: none;
+    font-size: 19px;
+    list-style: none;
   }
   .ab{
-  position: absolute;
-  top: 26%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(14, 91, 235);
-  font-size: 27px;
-  z-index: 1;
-  font-family: 'Anton', sans-serif;
-  }
-  .ab:hover{
-  color: transparent;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(14, 91, 235);
+    font-size: 27px;
+    z-index: 1;
+    font-family: 'Anton', sans-serif;
   }
   .cuadros{
     position: relative;
