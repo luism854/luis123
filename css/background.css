@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-principal{
+    background-image: url("../img/paisaje-1800x900.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.8;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: rgba(245, 245, 245, 0.6);
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+}
+.icon-user1{
+    background-color: rgba(125, 125, 125, 0.9);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+}
+.box-user{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+input [type="text"]{
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+input [type="text"]:active{
+    outline: none;
+}
+.input-box{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}
+.input-box
