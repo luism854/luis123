@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?65hcwp');
-  src:  url('fonts/icomoon.eot?65hcwp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?65hcwp') format('truetype'),
-    url('fonts/icomoon.woff?65hcwp') format('woff'),
-    url('fonts/icomoon.svg?65hcwp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?3kls02');
+  src:  url('fonts/icomoon.eot?3kls02#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3kls02') format('truetype'),
+    url('fonts/icomoon.woff?3kls02') format('woff'),
+    url('fonts/icomoon.svg?3kls02#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,18 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-lock-closed-outline:before {
-  content: "\e900";
-}
-.icon-lock-open:before {
+.icon-lock-closed:before {
   content: "\e901";
 }
-.icon-lock-open1:before {
+.icon-user:before {
   content: "\e902";
+}
+.icon-lock:before {
+  content: "\e900";
 }
 .icon-user1:before {
   content: "\e903";
 }
-.icon-user:before {
-  content: "\e971";
+.icon-lock-closed1:before {
+  content: "\e904";
 }
