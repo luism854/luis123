@@ -111,6 +111,9 @@ button:hover{
 }
 /* Media quary, obviamente... */
 @media only screen and (max-width: 768px){
+    .img-principal{
+        background-image: url("../imagenes/paisaje-770x900.jpg");
+    }
     /* Cambio de tamaño al contenedor */
     .form{
         width: 300px;
