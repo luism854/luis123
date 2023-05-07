@@ -26,7 +26,7 @@
 .form{
     background-color: rgba(245, 245, 245, 0.5);
     width: 350px;
-    height: 450px;
+    height: 440px;
     border-radius: 40px;
 }
 /* Icono grande.. Contenedor N.1 */
@@ -65,7 +65,7 @@
 input[type="text"], [type="password"]{
     border: 0;
     background-color: transparent;
-    font-size: 1.5em;
+    font-size: 1.4em;
     width: 280px;
     color: rgb(86, 86, 86);
     outline: none;
