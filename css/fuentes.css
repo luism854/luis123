@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    height: 400px;
+    width: 200px;
+    background-size: cover;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
