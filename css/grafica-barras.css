@@ -2,23 +2,35 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(../imagenes/mountains\ and\ sky\ dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* cajas principales */
 .contenedor{
     display: flex;
     justify-content: center;
-}
-h1{
-    color: aquamarine;
-    font-size: 2.5em;
-    margin: 20px 0px 30px 20px;
 }
 .box-1{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    width: 130vh;
-    height: 50vh;
-    background-color: rgb(0, 183, 255);
+    width: auto;
+    height: 512px;
+    box-shadow: 0px 6px 5px rgb(68, 227, 255);
+    color: rgb(0, 0, 0);
 }
+/* titulo */
+h1{
+    width: auto;
+    height: 60px;
+    color: white;
+    font-size: 2.5em;
+    margin: 20px 0px 30px 20px;
+}
+/* cajas de barras */
 .boxs{
     display: flex;
     justify-content: center;
@@ -29,23 +41,23 @@ h1{
 }
 .box-flexdir1{
     height: 10%;
-    background-color: aqua;
+    background-color: rgb(83, 255, 255);
 }
 .box-flexdir2{
     height: 20%;
-    background-color: greenyellow;
+    background-color: rgb(181, 255, 69);
 }
 .box-flexdir3{
     height: 30%;
-    background-color: goldenrod;
+    background-color: rgb(44, 255, 164);
 }
 .box-flexdir4{
     height: 40%;
-    background-color: orange;
+    background-color: rgb(255, 189, 67);
 }
 .box-flexdir5{
     height: 50%;
-    background-color: navy;
+    background-color: rgb(59, 59, 255);
 }
 .box-flexdir6{
     height: 60%;
@@ -53,9 +65,22 @@ h1{
 }
 .box-flexdir7{
     height: 70%;
-    background-color: firebrick;
+    background-color: rgb(255, 58, 58);
 }
 .box-flexdir8{
     height: 80%;
-    background-color: palegreen;
+    background-color: rgb(124, 255, 124);
+}
+/* barra vertical de numeros */
+.box-numeros{
+    height: 100%;
+    width: 40px;
+}
+.numero{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    color: white;
+    border-top: 1px solid rgb(255, 255, 255);
 }
