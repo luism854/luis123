@@ -1,11 +1,53 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .main-content{
     display: grid;
-    width: 1200px;
-    height: 700;
-    border: 3px solid black;
-    margin: 50px auto;
+    width: 75vw;
+    height: 75vh;
+    margin: 0 20px;
+    color: white;
+    font-size: 1.5em;
+    grid-gap: 15px;
+    border: 2px solid black;
+    grid-template-rows: 69px;
+    grid-template-columns: repeat(7, 1fr);
+}
+.semana{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dia-semana{
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.day1{
+    grid-column-start: 4;
+}
+.contenedor-text-i{
+    display: flex;
+    justify-content: end;
+}
+.text-i{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    font-size: 0.6em;
+}
+.text-i2{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    font-size: 0.6em;
+    margin-top: 15px;
+}
+.color{
+    background-color: rgb(255, 86, 151);
+    color: white;
 }
