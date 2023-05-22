@@ -52,6 +52,9 @@ h1{
     border: 2px solid transparent;
     border-radius: 10px;
 }
+.semana2{
+    display: none;
+}
 .dia-semana:hover{
     border: 2px solid rgb(89, 89, 89);
 }
@@ -81,4 +84,40 @@ h1{
 }
 .line{
     text-decoration: underline;
+}
+@media only screen and (max-width:900px){
+    .semana{
+        display: none;
+    }
+    .semana2{
+        background-color: darkcyan;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        border-radius: 50%;
+        font-size: 0.9em;
+    }    
+    .dia-semana{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 0.9em;
+    }
+    .text-i, .text-i2{
+        display: none;
+    }
+}
+@media only screen and (max-width:600px){
+    .semana2{
+        font-size: 0.7em;
+    }
+    .dia-semana{
+        font-size: 0.7em;
+    }
+    .main-content{
+        grid-template-rows: 55px;
+        height: 62vh;
+    }
 }
