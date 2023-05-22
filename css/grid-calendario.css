@@ -116,8 +116,13 @@ h1{
     .dia-semana{
         font-size: 0.7em;
     }
+    h1{
+        width: 100vw;
+    }
     .main-content{
-        grid-template-rows: 55px;
-        height: 62vh;
+        grid-gap: 5px;
+        grid-template-rows: 50px;
+        width: 90vw;
+        height: 52vh;
     }
 }
