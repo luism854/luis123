@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-principal{
+    display: grid;
+    grid-template: "contenedor1 contenedor2"/
+                    250px       1fr
+    ;
+}
+.contenedor1{
+    grid-area: contenedor1;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    background-color: black;
+    display: grid;
+    grid-template: "circulo"        250px
+                    "lista-items"   1fr
+                    "redes-sociales"50px/
+                    100%;
+}
+.circulo{
+    grid-area: circulo;
+    border-bottom: 1px solid white;
+}
+.lista-items{
+    grid-area: lista-items;
+    border-bottom: 1px solid white;
+}
+.redes-social{
+    grid-area: redes-sociales;
+    border-bottom: 1px solid white;
+}
+.contenedor2{
+    grid-area: contenedor2;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    background-color: aquamarine;
+    grid-gap: 30px;
+    grid-template: "empty-left   cube1     cube2     cube3   empty-right" 200px/
+                     1fr         380px     380px     380px    1fr;
+}
+.cube1{
+    grid-area: cube1;
+    width: 100%;
+    height: 900px;
+    row-gap: 30px;
+    display: grid;
+    grid-template: "img1-1"300px
+                    "img2-2"600px/
+                    1fr;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img1-1{
+    grid-area: img1-1;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.img2-2{
+    grid-area: img2-2;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.cube2{
+    grid-area: cube2;
+    width: 100%;
+    height: 900px;
+    row-gap: 30px;
+    display: grid;
+    grid-template: "img1-3"700px
+                    "img2-4"400px/
+                    1fr;
+}
+.img1-3{
+    grid-area: img1-3;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.img2-4{
+    grid-area: img2-4;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.cube3{
+    grid-area: cube3;
+    width: 100%;
+    height: 900px;
+    row-gap: 30px;
+    display: grid;
+    grid-template: "img1-5"300px
+                    "img2-6"300px
+                    "img3-7"400px/
+                    1fr
+    ;
+}
+.img1-5{
+    grid-area: img1-5;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.img2-6{
+    grid-area: img2-6;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
+.img3-7{
+    grid-area: img3-7;
+    background-color: orange;
+    width: 100%;
+    border-radius: 10px;
+}
