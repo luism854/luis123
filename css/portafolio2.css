@@ -120,3 +120,28 @@ img:hover{
 .contenedor-junior{
   text-decoration: none;
 }
+/* barra de iconos */
+.cont-icon{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.barra-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+.icon1{
+  font-size: 30px;
+  color: white;
+  margin: 8px 10px;
+  cursor: pointer;
+}
+.icon1:hover{
+  color: blueviolet;
+  scale: 1.1;
+}
