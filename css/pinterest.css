@@ -218,6 +218,103 @@ div>img{
                     "empty-buttom" 1fr/ 
                     1fr;
 }
+.main-boxes2{
+    
+}
 .nav-menu{
     margin-top: 0;
+}
+.main-boxes2{
+    grid-area: main-boxes;
+    display: none;
+    width: 0;
+    /* margin-top: 80px;  para dejarla mas abajo */  
+    margin-top: 0;
+    grid-gap: 0;
+    grid-template: none;
+}
+@media only screen and (max-width: 1024px){
+    .main-boxes{
+        grid-area: none;
+        display: none;
+        width: 0;
+        /* margin-top: 80px;  para dejarla mas abajo */  
+        margin-top: 0;
+        grid-gap: none;
+        grid-template: none;
+    
+    }
+    .main-boxes2{
+        grid-area: main-boxes;
+        display: grid;
+        width: 100%;
+        /* margin-top: 80px;  para dejarla mas abajo */  
+        margin-top: 100px;
+        grid-gap: 8px;
+        grid-template: "empty-left column-1c column-2c empty-right"/
+                        1fr         182px   182px    1fr;
+    }
+.column-1c{
+    grid-area: column-1c;
+    width: 100%;
+    row-gap: 15px;
+    display: grid;
+    grid-template: "img1-col1"  auto
+                    "img2-col1" auto
+                    "img3-col1" auto
+                    "img4-col1" auto
+                    "img5-col1" auto
+                    "img6-col1" auto
+                    "img1-col3" auto
+                    "img2-col3" auto 
+                    "img3-col3" auto 
+                    "img4-col3" auto 
+                    "img5-col3" auto 
+                    "img6-col3" auto
+                    "img1-col5" auto
+                    "img2-col5" auto
+                    "img3-col5" auto
+                    "img4-col5" auto
+                    "img5-col5" auto
+                    "img6-col5" auto
+                    "empty-buttom" 1fr/ 
+                    1fr;
+    
+}
+
+.column-2c{
+    grid-area: column-2c;
+    width: 100%;
+    row-gap: 15px;
+    display: grid;  
+    grid-template: "img1-col2"  auto
+                    "img2-col2" auto
+                    "img3-col2" auto
+                    "img4-col2" auto
+                    "img5-col2" auto
+                    "img6-co12" auto
+                    "img1-col4" auto
+                    "img2-col4" auto 
+                    "img3-col4" auto 
+                    "img4-col4" auto 
+                    "img5-col4" auto 
+                    "img6-col4" auto
+                    "img1-col6" auto
+                    "img2-col6" auto
+                    "img3-col6" auto
+                    "img4-col6" auto
+                    "img5-col6" auto
+                    "img6-col6" auto
+                    "empty-buttom" 1fr/ 
+                    1fr;
+}
+.column-1 .column-2 .column-3 .column-4 .column-5 .column-6 .column-7{
+    grid-area: none;
+    width: 0;
+    row-gap: 0;
+    display: none;
+    grid-template: none;
+}
+
+    
 }
