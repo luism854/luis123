@@ -112,9 +112,10 @@ i{
 .icono-loup{
     font-size: 18px;
 }
-
-
 div>img{
+    border-radius: 17px;
+}
+a>img{
     border-radius: 17px;
 }
 
