@@ -40,3 +40,80 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "pinterest img/pinterest1.html";
     });
 });
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv2 = document.getElementById("imagenDiv2");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv2.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest2.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv3 = document.getElementById("imagenDiv3");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv3.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest3.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv4 = document.getElementById("imagenDiv4");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv4.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest4.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv1r = document.getElementById("imagenDiv1-1");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv1r.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest1.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv2r = document.getElementById("imagenDiv2-1");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv2r.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest2.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv3r = document.getElementById("imagenDiv3-1");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv3r.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest3.html";
+    });
+});
+
+//redireccionador a la pagina de la imagen 2
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el elemento del div con la imagen por su id
+    var imagenDiv4r = document.getElementById("imagenDiv4-1");
+    // Agrega un evento de clic al div para redirigir la página
+    imagenDiv4r.addEventListener("click", function () {
+        // Redirige a la URL deseada
+        window.location.href = "pinterest img/pinterest4.html";
+    });
+});
