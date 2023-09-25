@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-box{
+    padding: 20px;
+}
+.box-subtotal{
+    grid-area: box-subtotal;
+}
+.subtotal{
+    font-size: 1.2em;
+}
+.btn-pago-productos{
+    grid-area: btn-pago-producto;
+    background-color: yellow;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    margin-bottom: 40px;
+}
+.box-img-producto{
+    grid-area: box-img-producto;
+    height: 100%;
+}
+.img-producto{
+    height: 100%;
+}
+.info-producto{
+    grid-area: info-producto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4em;
+    padding-left: 50px;
+}
+.num-select{
+    display: grid;
+    grid-template: "num-restar num-view num-sumar"/
+                    1fr         1fr     1fr
+                    ;
+    border-radius: 17px;
+    height: 80px;
+    padding-top: 20px;
+}
+.num-restar, .num-sumar{
+    background-color: rgb(215, 215, 215);
+    cursor: pointer;
+}
+.num-restar, .num-sumar, .num-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+.num-restar{
+     border: 2px solid black;
+     border-bottom-left-radius: 22px;
+     border-top-left-radius: 22px;
+     border-right: none;
+}
+.num-view{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.num-sumar{
+    border: 2px solid black;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-left: none;
+}
+@media only screen and (min-width: 430px) and (max-width: 834px){
+    .main-box{
+        height: 800px;
+        display: grid;
+        grid-template: "box-subtotal    box-subtotal" 50px
+                        "btn-pago-producto btn-pago-producto" 120px
+                        "box-img-producto  info-producto" 350px
+                        "btn-cantidad  btn-eliminar"100px
+                        "empty-left    btn-save-later"70px/
+                        4fr             8fr
+                        ;
+    }
+}
