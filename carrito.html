@@ -10,27 +10,33 @@
 <body>
     <div class="main-box">
         <div class="box-subtotal">
-            <label class="subtotal">subtotal cop <span id="subTotal">0</span></label>
+            <label class="subtotal">Subtotal <label class="text-cop">Cop</label> <span class="num-subtotal" id="subTotal">0</span></label>
         </div>
         <div class="btn-pago-productos">
-            <label for="">Proceder al pago (<span id="cantProductos">0 productos</span>)</label>
+            <label>Proceder al pago (<span id="cantProductos">0</span><span id="Product"> productos</span>)</label>
         </div>
         <div class="box-img-producto">
             <img class="img-producto" src="imagenes/libro-js-car.jpg" alt="">
         </div>
         <div class="info-producto">
             <label>
-                JavaScript The Definitive Guide Master the World's Most-Used Programming Language 7th Edition
+                JavaScript The Definitive Guide Master the World's Most-Used Programming Language
             </label>
             <label>por David Flanagan</label>
-            <label>Tapa blanda</label>
-            <label>cop <span>0</span></label>
+            <label class="text3">Tapa blanda</label>
+            <label class="text4">cop <span class="text4-1">112.350</span></label>
         </div>
         <div class="num-select">
             <div id="numRestar" class="num-restar">-</div>
             <div id="numView" class="num-view">0</div>
             <div id="numSumar" class="num-sumar">+</div>
         </div>
+        <button class="btn-elimiar">
+            Eliminar
+        </button>
+        <button class="btn-save-later">
+            Guardar para mas tarde
+        </button>
     </div>
     <script src="js/carrito.js"></script>
 </body>
