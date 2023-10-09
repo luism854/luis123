@@ -61,13 +61,27 @@ header{
 }
 .main-content{
     display: grid;
-    height: 300px;
-    grid-template: "box-producto box-info"/
-                    1fr             1fr
+    grid-template: "box-producto"/
+                    1fr
     ;
+    height: 300px;
 }
 .box-producto{
-    grid-area: box-producto;
+    display: grid;
     background-color: red;
+    grid-template: "box-img box-info"/
+                    1fr         1fr
+    ;
     height: 300px;
+}
+.box-img{
+    grid-area: box-img;
+    background-color: blue;
+}
+.box-info{
+    grid-area: box-info;
+    background-color: chartreuse;
+}
+.img-auto{
+    width: 100%;
 }
