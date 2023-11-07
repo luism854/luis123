@@ -17,8 +17,8 @@ let img1 = "imagenes/ford-scape.webp";
 let img2 = "imagenes/peugeot.webp";
 let img3 = "imagenes/peugeot2.webp";
 
-let auto1 = new Automovil("Ford Fiesta", "1.6 Titanium Mecanico", 41900000, img, 2016, "81.000" , "Envigado - Atioquia " );
-let auto2 = new Automovil("Ford Escape", "2.0 Titanium", 78000000, img1, 2016, "30.000" , "Engativa - Bogotá - D.C." );
+let auto1 = new Automovil("Ford", "Fiesta 1.6 Titanium Mecanico", 41900000, img, 2016, "81.000" , "Envigado - Atioquia " );
+let auto2 = new Automovil("Ford", "Escape 2.0 Titanium", 78000000, img1, 2016, "30.000" , "Engativa - Bogotá - D.C." );
 let auto3 = new Automovil("Peugeot", "Partner Cargo", 38500000, img2, 2019, "65.600" , "Suba - Bogotá D.C." );
 let auto4 = new Automovil("Peugeot", "206 1.4 Xr", 27500000, img3, 2019, "78.300" , "Fontibón - Bogotá D.C." );
 
