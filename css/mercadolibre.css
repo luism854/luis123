@@ -63,10 +63,6 @@ header {
     font-size: 1.4em;
 }
 
-.main-content {
-    display: grid;
-}
-
 .box-producto {
     display: grid;
     grid-template: "box-img box-info" /
@@ -130,8 +126,14 @@ header {
     font-size: 1em;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .main-content {
-        background-color: rgba(255, 0, 0, 0.6);
+        display: flex;
+        background-color: rgba(235, 235, 235, 0.6);
+    }
+    .barra-bus{
+        width: 200px;
+        height: 100%;
+        background-color: rgb(0, 255, 255);
     }
 }

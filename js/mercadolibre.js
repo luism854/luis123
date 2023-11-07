@@ -28,14 +28,14 @@ let autos = [auto1, auto2, auto3, auto4];
 
 inputBusqueda.addEventListener("input", function(event){
     let userInput = event.target.value.toLowerCase();
-    mainContent.innerHTML = '';
+    boxProductos.innerHTML = '';
 
     for(let auto of autos) {
         if(userInput === '' || auto.marca.toLowerCase().includes(userInput)) {
             // if (event.key == "Enter"){ 
             //caja producto
             let boxProducto = document.createElement("div");
-            mainContent.appendChild(boxProducto);
+            boxProductos.appendChild(boxProducto);
             boxProducto.setAttribute("class", "box-producto");
             //caja imagen
             let boxImg = document.createElement("div");
@@ -94,7 +94,7 @@ for(let auto of autos) {
         // if (event.key == "Enter"){ 
         //caja producto
         let boxProducto = document.createElement("div");
-        mainContent.appendChild(boxProducto);
+        boxProductos.appendChild(boxProducto);
         boxProducto.setAttribute("class", "box-producto");
         //caja imagen
         let boxImg = document.createElement("div");
