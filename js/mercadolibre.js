@@ -73,7 +73,7 @@ inputBusqueda.addEventListener("input", function(event){
 
             let txtNodeAño = document.createTextNode(`${auto.año} • ${auto.km} km • ${auto.ciudad}`)
             año.appendChild(txtNodeAño)
-            año.setAttribute("class", "año")
+            año.setAttribute("class", "año")            
 
             //let icon
             let boxCorazon = document.createElement("div");
