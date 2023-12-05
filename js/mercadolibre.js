@@ -26,7 +26,7 @@ let autos = [auto1, auto2, auto3, auto4];
 
 // alert ( auto1.marca + " " + auto1.modelo);
 
-inputBusqueda.addEventListener("input", function(event){
+inputBusqueda.addEventListener("input", function(event){                                                                        
     let userInput = event.target.value.toLowerCase();
     boxProductos.innerHTML = '';
 
